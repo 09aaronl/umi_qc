@@ -10,5 +10,4 @@ image `quay.io/broadinstitute/viral-baseimage:0.1.14` and contains various tools
  - umi-specific utilities: umi_tools, fgbio
  - QC: fastqc, multiqc
 
-To build, run `sh ./docker/install-build-arg.sh`.
-Append the output to the build command, e.g., `docker build . --build-arg <...>`
+To build, run `sh ./docker/install-build-arg.sh`. Append the output to the build command, e.g., `docker build . --build-arg <...>`
