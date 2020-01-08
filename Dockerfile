@@ -5,7 +5,7 @@ FROM quay.io/broadinstitute/viral-baseimage:0.1.14
 LABEL maintainer "alin@broadinstitute.org"
 
 # to build:
-#   docker build . --build-arg <...>
+#   docker build .
 #
 # to run:
 #   docker run --rm <image_ID> "<command>.py subcommand"
