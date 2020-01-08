@@ -5,7 +5,6 @@ FROM quay.io/broadinstitute/viral-baseimage:0.1.14
 LABEL maintainer "alin@broadinstitute.org"
 
 # to build:
-#   sh ./docker/install-build-arg.sh
 #   docker build . --build-arg <...>
 #
 # to run:
